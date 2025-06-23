@@ -1,12 +1,1 @@
-//result-checking-program-pass or fail-in-c
-#include <stdio.h>
-#include <string.h>
-int main() {
-    int marks;
-    char result[10]; 
-    printf("Enter the marks: ");
-    scanf("%d", &marks);
-    strcpy(result, (marks < 35) ? "fail" : "pass");
-    printf("The student is %s", result);
-    return 0;
-}
+#result-checking-program-pass or fail-in-c
